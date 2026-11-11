@@ -1,0 +1,25 @@
+# 凭据与本地配置
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+private/
+local-requests/
+# 本地交流资料：发布前需另外放在仓库外
+/scout-email-integration/
+# 临时文件与运行环境
+node_modules/
+*.log
+.cache/
+coverage/
+tmp/
+temp/
+.skill-backups/
+.agents/
+.codex/
+.claude/
+skills-lock.json
+.DS_Store
+Thumbs.db
