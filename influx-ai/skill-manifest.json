@@ -1,0 +1,158 @@
+{
+  "name": "influx-ai",
+  "latest_version": "0.3.0",
+  "min_supported_version": "0.1.0",
+  "channel": "preview",
+  "release_notes": [
+    "新增 Scout 邮件建联：首封/批量/Smart Send、已有会话回复、台账/会话及模板/预览/生成七项操作。",
+    "支持本地 Agent 起草、用户文案和 Scout 模板；确认后以 custom 内容发送，隔离测试覆盖结果未知及部分成功。",
+    "同步六个达人检索接口的认证、积分回执和限流提示；待结算或用量登记失败不自动重搜，保留完整响应。"
+  ],
+  "sync": {
+    "mode": "mirror",
+    "delete_missing": true,
+    "managed_roots": [
+      "."
+    ],
+    "exclude": [
+      ".skill-backups/**",
+      "scout-email-integration/**"
+    ]
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "07112f6c62df65ba152a46bcf17ef65aa874695e86e22092aff352e9721821e6"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "26377e210421826dd6cdfe60512af3c92cc3e3769958f4889a8112f7a2e599f9"
+    },
+    {
+      "path": "README.md",
+      "sha256": "5dbd9fadaa3aa3c7b6fe274bbf824a7f0ca9862a74fac8aceadcbf3ab96a842f"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "8f9e781c915c6b8cf9f0b4483e73ea8e848ae5653196e9e05b4c6ca0acdd0b84"
+    },
+    {
+      "path": "discovery/creator-lookalike/SKILL.md",
+      "sha256": "8961e34d573ce8acd484c7a914630b2e2f3628a0de0f0f1cfc34d5d0dfe83ff7"
+    },
+    {
+      "path": "discovery/creator-nl-search/SKILL.md",
+      "sha256": "b38e04c86fb606b5683bbb8a72d6856e55762f6c71112a6ecff6d07dd3100253"
+    },
+    {
+      "path": "discovery/creator-search/SKILL.md",
+      "sha256": "3d742c55a96393aa37edc40d61bd78387ee35a2a839a2403dd21775e6a1502f9"
+    },
+    {
+      "path": "outreach/creator-outreach/SKILL.md",
+      "sha256": "809f0723e1a76102debeeed039d715870e8e6145a00e6e4dc9c2e171248b7aa7"
+    },
+    {
+      "path": "references/api-reference.md",
+      "sha256": "4607519066bc07cf1fb6e1279320a58035024cf306add88d00749f0dc6a997c3"
+    },
+    {
+      "path": "references/country-codes.md",
+      "sha256": "c9a33af934a5cebcb50b0c5b3e29632d9db93edc74cf2ebb3e909085a10a2386"
+    },
+    {
+      "path": "references/error-codes.md",
+      "sha256": "303c06e5c474f91f1cd0b3568e4bc15a485a3c93449bb3f22827c561a85ff068"
+    },
+    {
+      "path": "references/industry-categories.md",
+      "sha256": "5e0d3dea93e9c050ff2668187975e63785938d79e953746d597bd6877deb1c8e"
+    },
+    {
+      "path": "references/language-codes.md",
+      "sha256": "fdde2a5cbd11426c9d46f41ce13af743bf1ce32d2dd9159f70fbf2ff0cf5ee57"
+    },
+    {
+      "path": "references/platform-params.md",
+      "sha256": "e90e7752cdb4ef639d1b283852de9b8c138c2a8fb72e1d8f4454fd8f804e58de"
+    },
+    {
+      "path": "scripts/_discovery_response.mjs",
+      "sha256": "9fe11a1ffddbca63a0cb913f1ba8239204b6abd68f19e50022128cfad6b3d956"
+    },
+    {
+      "path": "scripts/_outreach_cli.mjs",
+      "sha256": "f56d37c043b9896d8040cad949f2a372e7bcca60fee8f9faab89a6453940e97f"
+    },
+    {
+      "path": "scripts/_outreach_client.mjs",
+      "sha256": "f72c6ada06940d02ee52e4935e7170c791979bb67cdabb079464c4f78c607a18"
+    },
+    {
+      "path": "scripts/find_brand_collaboration_creators.mjs",
+      "sha256": "8874d6ddceb47dcb252a2a4ae9766a6a2e0363dc249cf109826d025636386a3a"
+    },
+    {
+      "path": "scripts/find_lookalike.mjs",
+      "sha256": "53d4fa7b0899270afca49436943e1a1164c9e83594c470243f459fbbfd0d244b"
+    },
+    {
+      "path": "scripts/get_brand_realtime_mention_results.mjs",
+      "sha256": "78ebde29ccc3609b42c3d69a0d6d0bfca120038a300167170ca104d48bca2f04"
+    },
+    {
+      "path": "scripts/get_brand_realtime_mention_status.mjs",
+      "sha256": "8fca2ddd2b3f01e99d4f300519ba6a2bcf19ed1577b6cffbd007f2bffbdca1be"
+    },
+    {
+      "path": "scripts/list_creators.mjs",
+      "sha256": "303417fd27ab1998806b34bc7270d5e02d39f9561e8246c427f033a3237e1f41"
+    },
+    {
+      "path": "scripts/outreach_generate.mjs",
+      "sha256": "3d6d495b796ebe6cdcd8a17e761b0e087e3a08beb18179e87a6dcb1e331d9fe7"
+    },
+    {
+      "path": "scripts/outreach_preview.mjs",
+      "sha256": "8363abb654b5d0e773b4c9e081f77581bcd494fc15db3557cf6dfd6174e2c163"
+    },
+    {
+      "path": "scripts/outreach_reply.mjs",
+      "sha256": "ffb4871632ad7fa9a75fdc8dc2fb84e4be1618c453694c4a403acb719964c90d"
+    },
+    {
+      "path": "scripts/outreach_send.mjs",
+      "sha256": "e3f82926c252e752bc421266849daabf874a45ac9ded65b0c23b08a67bb0c3f3"
+    },
+    {
+      "path": "scripts/outreach_status.mjs",
+      "sha256": "073b4e54c9656f769f4bce3cb41f5dc5ee4fc029247beeaadc2716074fc5971e"
+    },
+    {
+      "path": "scripts/outreach_template.mjs",
+      "sha256": "d9445839a0c197bb3a442689650e9c774077a5d61e45188a0844dc2a994d4934"
+    },
+    {
+      "path": "scripts/outreach_thread.mjs",
+      "sha256": "f16723c2938d684363d30f304c5f7324f9e0293722e62b44bf57770237f954dc"
+    },
+    {
+      "path": "scripts/poll_brand_realtime_mentions.mjs",
+      "sha256": "df5345a81c411a5c080a5af92ae627965df24fc692aa4b4e762a314ae24bf0e5"
+    },
+    {
+      "path": "scripts/search_creators_nl.mjs",
+      "sha256": "fa2e858131e2f9b4c123bbcb6545346b390dce58258e7a8d5e437d93c29c9e59"
+    },
+    {
+      "path": "scripts/submit_brand_realtime_mentions.mjs",
+      "sha256": "54f9f1908b59b7a44bf4c09559aad2f001afba4712b846fafaeab46d7b379c29"
+    },
+    {
+      "path": "skill.json",
+      "sha256": "ee546df9ea3c6389495803be09f2d77309b6e222c58d8350341f697fb7557ec6"
+    }
+  ],
+  "purpose": "项目自身文件清单与 SHA-256 完整性校验；不作为 skills CLI 的复制过滤规则。",
+  "self_excluded": "skill-manifest.json 不记录自身哈希；本地交流资料不列入发布清单。"
+}
