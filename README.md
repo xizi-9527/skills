@@ -57,8 +57,10 @@ npx skills update
 ```text
 skills/
 ├── README.md
+├── LICENSE
 └── influx-ai/
     ├── SKILL.md
+    ├── LICENSE
     ├── README.md
     ├── CHANGELOG.md
     ├── skill.json
@@ -83,4 +85,6 @@ skills/
 
 ## 许可
 
-许可证及授权条款尚未确定，当前不添加开源授权承诺。API 访问需要目标服务提供有效授权。
+本仓库的 Skill 脚本及文档采用 [MIT No Attribution（MIT-0）](LICENSE) 协议，允许使用、修改及再分发，无需保留署名。安装包内附带同一协议。
+
+Scout API 服务的访问权限、积分及计费由服务端独立管理，使用 API 仍需有效授权。

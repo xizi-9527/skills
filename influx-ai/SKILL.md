@@ -5,6 +5,7 @@ description: |
   TikTok/Instagram/YouTube/Twitter 达人库，按品牌查找公开合作达人，以及根据种子达人查找相似达人。
   支持达人邮件建联：首封、回复、Smart Send 预约、台账/会话查询及首封内容准备，调用 Scout OpenAPI。
 compatibility: Node.js 20.6+
+license: MIT-0
 metadata:
   version: "0.3.0"
 ---

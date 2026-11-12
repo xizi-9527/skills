@@ -1,8 +1,9 @@
 {
   "name": "influx-ai",
   "version": "0.3.0",
+  "license": "MIT-0",
   "channel": "preview",
-  "updated_at": "2026-11-11",
+  "updated_at": "2026-11-12",
   "description": "达人发现与邮件建联 Skill：自然语言/结构化/品牌/相似达人检索，以及首封、回复、Smart Send、台账/会话与首封内容准备，调用 Scout OpenAPI。",
   "compatibility": "Node.js 20.6+",
   "runtime": {

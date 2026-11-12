@@ -207,7 +207,7 @@ npx skills update
 
 版本变化维护在 CHANGELOG.md。skill-manifest.json 仅记录本项目文件与 SHA-256，供自身完整性校验；skills CLI 不以它作为复制过滤规则。本地交流资料已放在 Skill 安装目录之外，不纳入安装包；后续联调记录也应保存在安装目录外。
 
-本地检查可执行 `node --check scripts/outreach_send.mjs` 等语法检查，并核对包内链接和 manifest 哈希；检查过程无需调用真实业务接口。安装来源为 xizi-9527/skills；正式服务根地址、Key 申请方式和许可证仍待确定。当前保留 0.3.0 / preview，安装验证不代表目标服务已部署或所有业务能力已验收。
+本地检查可执行 `node --check scripts/outreach_send.mjs` 等语法检查，并核对包内链接和 manifest 哈希；检查过程无需调用真实业务接口。安装来源为 xizi-9527/skills；正式服务根地址和 Key 申请方式仍待确定。当前保留 0.3.0 / preview，安装验证不代表目标服务已部署或所有业务能力已验收。
 
 ## 安全说明
 
@@ -219,4 +219,6 @@ npx skills update
 
 ## 许可
 
-许可证及授权条款尚未确定；发布前需明确，不在本次整理中添加开源授权承诺。
+本包的 Skill 脚本及文档采用 [MIT No Attribution（MIT-0）](LICENSE) 协议，允许使用、修改及再分发，无需保留署名。
+
+Scout API 服务的访问权限、积分及计费由服务端独立管理，使用 API 仍需有效授权。

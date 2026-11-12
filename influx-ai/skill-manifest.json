@@ -29,12 +29,16 @@
       "sha256": "26377e210421826dd6cdfe60512af3c92cc3e3769958f4889a8112f7a2e599f9"
     },
     {
+      "path": "LICENSE",
+      "sha256": "7bc052b6be34f49e63094095cc3ccf19fe521c1fdd73b7d0a8b466ea5bf030c9"
+    },
+    {
       "path": "README.md",
-      "sha256": "5dbd9fadaa3aa3c7b6fe274bbf824a7f0ca9862a74fac8aceadcbf3ab96a842f"
+      "sha256": "5f9ad152f9b550a4d929f45de49b855160e162b46a8e67b645cececdd0afdd83"
     },
     {
       "path": "SKILL.md",
-      "sha256": "8f9e781c915c6b8cf9f0b4483e73ea8e848ae5653196e9e05b4c6ca0acdd0b84"
+      "sha256": "413d27f9f786c9614bf176eef74b0d6cae93fbd79662c04f3647577cdef7879e"
     },
     {
       "path": "discovery/creator-lookalike/SKILL.md",
@@ -150,7 +154,7 @@
     },
     {
       "path": "skill.json",
-      "sha256": "ee546df9ea3c6389495803be09f2d77309b6e222c58d8350341f697fb7557ec6"
+      "sha256": "ec575ee323bc71276b25608acb3f8dfb593d6c3060f7a2d36329578d20bd2106"
     }
   ],
   "purpose": "项目自身文件清单与 SHA-256 完整性校验；不作为 skills CLI 的复制过滤规则。",
